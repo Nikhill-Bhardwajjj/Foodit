@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home"
+        app:showAsAction="always"
+        android:title="TODO" />
+
+    <item
+        android:id="@+id/action_bar_profile_admin"
+        android:icon="@drawable/person"
+        android:title="Profile"
+        app:showAsAction="always">
+
+    </item>
+
+    <item android:id="@+id/action_Order_admin"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Oders"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/action_order_history_admin"
+        android:title="Order Detail"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_signout_admin"
+        android:title="Sign out"
+        app:showAsAction="never">
+
+    </item>
+</menu>

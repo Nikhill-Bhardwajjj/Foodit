@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "306661006893",
+    "project_id": "foodit-nik",
+    "storage_bucket": "foodit-nik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306661006893:android:50ae49f72f7741d75862a4",
+        "android_client_info": {
+          "package_name": "com.lihkin16.foodit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPr5T8tVUjCOE6631I_kUhEePJlZ9I1SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

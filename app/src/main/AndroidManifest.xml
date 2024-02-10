@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.lihkin16.util.UserApi"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Food IT"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Foodit"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.adminorderdetail"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_display_order"
+            android:exported="false" />
+        <activity
+            android:name=".user.user_Display_order"
+            android:exported="false" />
+        <activity android:name=".user.getOrder" />
+        <activity
+            android:name=".admin.adminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".user.userProfile"
+            android:exported="false" />
+        <activity android:name=".admin.AddItemActivity" />
+        <activity
+            android:name=".admin.AdminHomepageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.userHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminSignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".user.userSignupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".admin.adminActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".user.userActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

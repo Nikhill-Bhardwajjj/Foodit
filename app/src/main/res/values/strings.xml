@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">foodit</string>
+    <string name="foodit_tagline">People who love to eat are always the best people.</string>
+
+    <string name="activity_main_text_0">User</string>
+    <string name="activity_main_text_1">Or</string>
+    <string name="activity_main_text_2">Admin</string>
+    <string name="image_description">Delicious Dosa</string>
+    <string name="admin_item_text">Item Name</string>
+    <string name="item_price">Item Price</string>
+    <string name="item_description">Item Description</string>
+    <string name="description_user_item">Description</string>
+    <string name="email_hint">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="login_button">Login</string>
+    <string name="or">Or</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="admin_button">Login as Admin</string>
+    <string name="user_button">Login as User</string>
+    <string name="ot">Or</string>
+    <string name="search_for_items">Search for items</string>
+    <string name="user_name">User Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="image_of_food">image of food</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="item_name">Item Name</string>
+    <string name="add_item">Add Item</string>
+    <string name="login">Login</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="enter_your_password1">Enter your Password</string>
+    <string name="this_is_bbutton_to_add_items">this is button to add items</string>
+    <string name="user_name1">User Name</string>
+    <string name="email_address1">Email Address</string>
+    <string name="password1">Password</string>
+    <string name="sign_up2">Sign Up</string>
+</resources>

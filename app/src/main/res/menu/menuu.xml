@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_bar_profile_user"
+        android:icon="@drawable/person"
+        android:title="Profile"
+        app:showAsAction="always">
+
+    </item>
+    <item android:id="@+id/action_Order_user"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Orders"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:title="Order History"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_signout_user"
+        android:title="Sign out"
+        app:showAsAction="never">
+
+    </item>
+</menu>
